@@ -1,4 +1,4 @@
-# Malaria Case Surveillance and Foci Investigation and response Installation Guide { #mal-cs-foci-installation }
+# Malaria Case Surveillance and Foci Investigation and Response Installation Guide { #mal-cs-installation }
 
 This document includes an installation guide for the Rehabilitation aggregate package.
 
