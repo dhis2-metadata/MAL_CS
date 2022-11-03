@@ -1,1 +1,1 @@
-# Malaria Case Surveillance and Foci Investigation Tracker Packages
+# Malaria Case Surveillance and Foci Investigation
