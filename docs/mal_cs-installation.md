@@ -1,60 +1,11 @@
 # Malaria Case Surveillance and Foci Investigation and Response Installation Guide { #mal-cs-installation }
 
-This document includes an installation guide for the Rehabilitation aggregate package.
+This document includes an installation guide for the Malaria Case Surveillance and Foci Investigation packages.
 
 System default language: English
 
 ## Overview
 
-The package metadata json files contain a "package" component that provides technical details on package version and content. The files available in the current version of the package are listed below.
-
-=== "DHIS2.35"
-
-    ```json
-    "package": {
-        "DHIS2Build": "834b25f",
-        "DHIS2Version": "2.35.8",
-        "code": "MLS000",
-        "description": "",
-        "lastUpdated": "20211209T152354",
-        "locale": "en",
-        "name": "MLS000_1.0.0_DHIS2.35",
-        "type": "TKR",
-        "version": "1.0.0"
-    }
-    ```
-
-=== "DHIS2.36"
-
-    ```json
-    "package": {
-        "DHIS2Build": "2adf10b",
-        "DHIS2Version": "2.36.4",
-        "code": "MLS000",
-        "description": "",
-        "lastUpdated": "20211210T125113",
-        "locale": "en",
-        "name": "MLS000_1.0.0_DHIS2.36",
-        "type": "TKR",
-        "version": "1.0.0"
-    }
-    ```
-
-=== "DHIS2.37"
-
-    ```json
-    "package": {
-        "DHIS2Build": "b8d4ef3",
-        "DHIS2Version": "2.37.0",
-        "code": "MLS000",
-        "description": "",
-        "lastUpdated": "20211210T125205",
-        "locale": "en",
-        "name": "MLS000_1.0.0_DHIS2.37",
-        "type": "TKR",
-        "version": "1.0.0"
-    },
-    ```
 
 ## Installation
 
