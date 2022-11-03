@@ -3561,6 +3561,9 @@
                     "id": "veWOag0p9n2"
                 },
                 {
+                    "id": "lezQpdvvGjY"
+                },
+                {
                     "id": "vGxpKVMkmaW"
                 },
                 {
@@ -3660,6 +3663,9 @@
                     "id": "yhX7ljWZV9q"
                 },
                 {
+                    "id": "kJiPLxGq2yI"
+                },
+                {
                     "id": "SlqoeFUJvUV"
                 },
                 {
@@ -3726,12 +3732,6 @@
                     "id": "BK2d3ktuJWa"
                 },
                 {
-                    "id": "kJiPLxGq2yI"
-                },
-                {
-                    "id": "lezQpdvvGjY"
-                },
-                {
                     "id": "JndDE3YbCEB"
                 },
                 {
@@ -3795,6 +3795,9 @@
                     "id": "Urz28endlF6"
                 },
                 {
+                    "id": "lezQpdvvGjY"
+                },
+                {
                     "id": "vGxpKVMkmaW"
                 },
                 {
@@ -3838,9 +3841,6 @@
                 },
                 {
                     "id": "zXNfOKXRBA9"
-                },
-                {
-                    "id": "lezQpdvvGjY"
                 },
                 {
                     "id": "f9xYwUwrHq9"
@@ -4617,6 +4617,70 @@
             },
             "dataElementGroups": [
                 {
+                    "id": "AVaWnh084Lp"
+                }
+            ],
+            "dataSetElements": [],
+            "dimensionItem": "kJiPLxGq2yI",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Number of days with symptoms",
+            "id": "kJiPLxGq2yI",
+            "legendSets": [],
+            "name": "MAL-CS- Days with symptoms",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "--------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "ZXEVDM9XRea": {
+                        "access": "r-r-----",
+                        "id": "ZXEVDM9XRea"
+                    },
+                    "suMb19wGXPR": {
+                        "access": "rwr-----",
+                        "id": "suMb19wGXPR"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Days with symptoms",
+            "translations": [],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rwr-----",
+                    "id": "suMb19wGXPR",
+                    "userGroupUid": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-r-----",
+                    "id": "ZXEVDM9XRea",
+                    "userGroupUid": "ZXEVDM9XRea"
+                }
+            ],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "dataElementGroups": [
+                {
                     "id": "FHF7spPxB7Y"
                 },
                 {
@@ -5005,6 +5069,90 @@
                 }
             ],
             "valueType": "BOOLEAN",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "dataElementGroups": [
+                {
+                    "id": "FHF7spPxB7Y"
+                },
+                {
+                    "id": "AVaWnh084Lp"
+                }
+            ],
+            "dataSetElements": [],
+            "description": "Number of residents in the household as counted during case household investigation",
+            "dimensionItem": "lezQpdvvGjY",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "TRACKER",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Number of household members",
+            "id": "lezQpdvvGjY",
+            "legendSets": [],
+            "name": "MAL-CS- Household members",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "--------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {
+                    "ZXEVDM9XRea": {
+                        "access": "r-r-----",
+                        "id": "ZXEVDM9XRea"
+                    },
+                    "suMb19wGXPR": {
+                        "access": "rwr-----",
+                        "id": "suMb19wGXPR"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Household members",
+            "translations": [
+                {
+                    "locale": "km",
+                    "property": "NAME",
+                    "value": "សមាជិកក្នុងផ្ទះ"
+                },
+                {
+                    "locale": "km",
+                    "property": "SHORT_NAME",
+                    "value": "សមាជិកក្នុងផ្ទះ"
+                },
+                {
+                    "locale": "km",
+                    "property": "FORM_NAME",
+                    "value": "សមាជិកក្នុងផ្ទះ"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rwr-----",
+                    "id": "suMb19wGXPR",
+                    "userGroupUid": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-r-----",
+                    "id": "ZXEVDM9XRea",
+                    "userGroupUid": "ZXEVDM9XRea"
+                }
+            ],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
             "zeroIsSignificant": false
         },
         {
@@ -6213,154 +6361,6 @@
             "userAccesses": [],
             "userGroupAccesses": [],
             "valueType": "DATE",
-            "zeroIsSignificant": false
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "bjDvmb4bfuf"
-            },
-            "dataElementGroups": [
-                {
-                    "id": "AVaWnh084Lp"
-                }
-            ],
-            "dataSetElements": [],
-            "dimensionItem": "kJiPLxGq2yI",
-            "dimensionItemType": "DATA_ELEMENT",
-            "domainType": "TRACKER",
-            "externalAccess": false,
-            "favorite": false,
-            "formName": "Number of days with symptoms",
-            "id": "kJiPLxGq2yI",
-            "legendSets": [],
-            "name": "MAL-CS- Number of days with symptoms",
-            "optionSetValue": false,
-            "periodOffset": 0,
-            "publicAccess": "--------",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "--------",
-                "userGroups": {
-                    "ZXEVDM9XRea": {
-                        "access": "r-r-----",
-                        "id": "ZXEVDM9XRea"
-                    },
-                    "suMb19wGXPR": {
-                        "access": "rwr-----",
-                        "id": "suMb19wGXPR"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "Number of days with symptoms",
-            "translations": [],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rwr-----",
-                    "id": "suMb19wGXPR",
-                    "userGroupUid": "suMb19wGXPR"
-                },
-                {
-                    "access": "r-r-----",
-                    "id": "ZXEVDM9XRea",
-                    "userGroupUid": "ZXEVDM9XRea"
-                }
-            ],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": false
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "SUM",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "bjDvmb4bfuf"
-            },
-            "dataElementGroups": [
-                {
-                    "id": "FHF7spPxB7Y"
-                },
-                {
-                    "id": "AVaWnh084Lp"
-                }
-            ],
-            "dataSetElements": [],
-            "description": "Number of residents in the household as counted during case household investigation",
-            "dimensionItem": "lezQpdvvGjY",
-            "dimensionItemType": "DATA_ELEMENT",
-            "domainType": "TRACKER",
-            "externalAccess": false,
-            "favorite": false,
-            "formName": "Number of household members",
-            "id": "lezQpdvvGjY",
-            "legendSets": [],
-            "name": "MAL-CS- Number of household members",
-            "optionSetValue": false,
-            "periodOffset": 0,
-            "publicAccess": "--------",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "--------",
-                "userGroups": {
-                    "ZXEVDM9XRea": {
-                        "access": "r-r-----",
-                        "id": "ZXEVDM9XRea"
-                    },
-                    "suMb19wGXPR": {
-                        "access": "rwr-----",
-                        "id": "suMb19wGXPR"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "Number of household members",
-            "translations": [
-                {
-                    "locale": "km",
-                    "property": "NAME",
-                    "value": "សមាជិកក្នុងផ្ទះ"
-                },
-                {
-                    "locale": "km",
-                    "property": "SHORT_NAME",
-                    "value": "សមាជិកក្នុងផ្ទះ"
-                },
-                {
-                    "locale": "km",
-                    "property": "FORM_NAME",
-                    "value": "សមាជិកក្នុងផ្ទះ"
-                }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rwr-----",
-                    "id": "suMb19wGXPR",
-                    "userGroupUid": "suMb19wGXPR"
-                },
-                {
-                    "access": "r-r-----",
-                    "id": "ZXEVDM9XRea",
-                    "userGroupUid": "ZXEVDM9XRea"
-                }
-            ],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
             "zeroIsSignificant": false
         },
         {
@@ -9896,91 +9896,7 @@
             "zeroIsSignificant": false
         }
     ],
-    "dataEntryForms": [
-        {
-            "attributeValues": [],
-            "externalAccess": false,
-            "favorite": false,
-            "format": 0,
-            "id": "BkamMA92BbJ",
-            "name": "Case investigation & classification",
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "style": "NORMAL",
-            "translations": [
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "Investigation des cas et classification"
-                }
-            ],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
-            "externalAccess": false,
-            "favorite": false,
-            "format": 0,
-            "id": "fPBk9MxyIPq",
-            "name": "Diagnosis & treatment",
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "Diagnostic et traitement"
-                }
-            ],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
-            "externalAccess": false,
-            "favorite": false,
-            "format": 0,
-            "id": "RPxPdrfyfIi",
-            "name": "Nearby household investigation",
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "Enquête sur les foyers voisins"
-                }
-            ],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
-            "externalAccess": false,
-            "favorite": false,
-            "format": 0,
-            "id": "Mw3yykkmMAf",
-            "name": "Routine Focus Investigation and Response",
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        }
-    ],
+    "dataEntryForms": [],
     "dataSets": [],
     "documents": [],
     "eventCharts": [],
@@ -30691,7 +30607,7 @@
         "DHIS2Version": "2.36.12",
         "code": "MAL_CS",
         "description": "Malaria Surveillance for Elimination Settings",
-        "lastUpdated": "20221103T103013",
+        "lastUpdated": "20221103T105110",
         "locale": "en",
         "name": "MAL_CS_TRK_DHIS2.36.12-en",
         "type": "TRK",
@@ -63404,30 +63320,6 @@
         },
         {
             "attributeValues": [],
-            "data": "V{program_stage_name}",
-            "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
-            ],
-            "evaluationTime": "ALWAYS",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "fq1q7OqJ35Q",
-            "programRule": {
-                "id": "MDYyLGkYlS3"
-            },
-            "programRuleActionType": "DISPLAYTEXT",
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
             "data": "#{date_of_classification_previous}",
             "dataElement": {
                 "id": "Ah29MGrnVjJ"
@@ -66282,33 +66174,6 @@
         },
         {
             "attributeValues": [],
-            "condition": "V{program_stage_name}",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "MDYyLGkYlS3",
-            "name": "DELETE - test program_stage_name",
-            "program": {
-                "id": "M3xtLkYBlKI"
-            },
-            "programRuleActions": [
-                {
-                    "id": "fq1q7OqJ35Q"
-                }
-            ],
-            "programStage": {
-                "id": "uvMKOn1oWvd"
-            },
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "translations": [],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
             "condition": "#{DetectionSetting}  ==  ''  || #{DetectionSetting}   == 'PASSIVE'  || #{DetectionSetting}  == 'REACTIVE'",
             "description": "Hide Reason for conducting foci investigation if detection setting != \"Proactive (ACD)\"",
             "externalAccess": false,
@@ -68827,9 +68692,6 @@
             "attributeValues": [],
             "autoGenerateEvent": false,
             "blockEntryForm": false,
-            "dataEntryForm": {
-                "id": "BkamMA92BbJ"
-            },
             "displayExecutionDateLabel": "Date of case investigation",
             "displayGenerateEventBox": false,
             "enableUserAssignment": false,
@@ -68837,7 +68699,7 @@
             "externalAccess": false,
             "favorite": false,
             "featureType": "POINT",
-            "formType": "CUSTOM",
+            "formType": "SECTION",
             "generatedByEnrollmentDate": false,
             "hideDueDate": true,
             "id": "wYTF0YCHMWr",
@@ -69564,9 +69426,6 @@
             "attributeValues": [],
             "autoGenerateEvent": true,
             "blockEntryForm": false,
-            "dataEntryForm": {
-                "id": "fPBk9MxyIPq"
-            },
             "displayDueDateLabel": "Date of diagnosis",
             "displayExecutionDateLabel": "Date of diagnosis",
             "displayGenerateEventBox": false,
@@ -69576,7 +69435,7 @@
             "externalAccess": false,
             "favorite": false,
             "featureType": "NONE",
-            "formType": "CUSTOM",
+            "formType": "SECTION",
             "generatedByEnrollmentDate": true,
             "hideDueDate": false,
             "id": "hYyB7FUS5eR",
@@ -70088,13 +69947,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "f9xYwUwrHq9"
+                        "id": "xTeHON9Jisk"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "WCL5UAe1Kbk",
+                    "id": "JgnziOnkRwj",
                     "programStage": {
                         "id": "hYyB7FUS5eR"
                     },
@@ -70117,13 +69976,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "xTeHON9Jisk"
+                        "id": "f9xYwUwrHq9"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "JgnziOnkRwj",
+                    "id": "WCL5UAe1Kbk",
                     "programStage": {
                         "id": "hYyB7FUS5eR"
                     },
@@ -70204,13 +70063,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "i7JwJXVEl2C"
+                        "id": "Wwu7UAt7bZW"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "jaoB7pw886P",
+                    "id": "hTmMtZziyN9",
                     "programStage": {
                         "id": "hYyB7FUS5eR"
                     },
@@ -70233,13 +70092,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "Wwu7UAt7bZW"
+                        "id": "i7JwJXVEl2C"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "hTmMtZziyN9",
+                    "id": "jaoB7pw886P",
                     "programStage": {
                         "id": "hYyB7FUS5eR"
                     },
@@ -70320,13 +70179,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "BRNQ61bbt28"
+                        "id": "voV7EhjhyJ3"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "B8eNv0ZDYnc",
+                    "id": "X3MmePyRaBV",
                     "programStage": {
                         "id": "hYyB7FUS5eR"
                     },
@@ -70349,13 +70208,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "voV7EhjhyJ3"
+                        "id": "BRNQ61bbt28"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "X3MmePyRaBV",
+                    "id": "B8eNv0ZDYnc",
                     "programStage": {
                         "id": "hYyB7FUS5eR"
                     },
@@ -70610,13 +70469,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "kJiPLxGq2yI"
+                        "id": "qpp5fp1RVaX"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "uyUHtwCRGLp",
+                    "id": "pELdOpZfWaf",
                     "programStage": {
                         "id": "hYyB7FUS5eR"
                     },
@@ -70639,13 +70498,13 @@
                     "attributeValues": [],
                     "compulsory": false,
                     "dataElement": {
-                        "id": "qpp5fp1RVaX"
+                        "id": "kJiPLxGq2yI"
                     },
                     "displayInReports": false,
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "pELdOpZfWaf",
+                    "id": "uyUHtwCRGLp",
                     "programStage": {
                         "id": "hYyB7FUS5eR"
                     },
@@ -71895,9 +71754,6 @@
             "attributeValues": [],
             "autoGenerateEvent": false,
             "blockEntryForm": false,
-            "dataEntryForm": {
-                "id": "RPxPdrfyfIi"
-            },
             "displayDueDateLabel": "Due date",
             "displayExecutionDateLabel": "Investigation date",
             "displayGenerateEventBox": false,
@@ -71907,7 +71763,7 @@
             "externalAccess": false,
             "favorite": false,
             "featureType": "POINT",
-            "formType": "CUSTOM",
+            "formType": "SECTION",
             "generatedByEnrollmentDate": false,
             "hideDueDate": true,
             "id": "VgsOuy9mXyZ",
@@ -72300,16 +72156,13 @@
             "attributeValues": [],
             "autoGenerateEvent": false,
             "blockEntryForm": false,
-            "dataEntryForm": {
-                "id": "Mw3yykkmMAf"
-            },
             "displayExecutionDateLabel": "Date of focus investigation",
             "displayGenerateEventBox": false,
             "enableUserAssignment": false,
             "executionDateLabel": "Date of focus investigation",
             "externalAccess": false,
             "favorite": false,
-            "formType": "CUSTOM",
+            "formType": "SECTION",
             "generatedByEnrollmentDate": false,
             "hideDueDate": true,
             "id": "KwrBvn1EJT3",
