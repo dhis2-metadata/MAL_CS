@@ -1,4 +1,4 @@
-# Malaria Elimination Case Surveillance & Foci Investigation System Design { # mal_cs_design }
+# Malaria Elimination Case Surveillance & Foci Investigation System Design { # mal-cs-design }
 
 ## Introduction
 
@@ -93,7 +93,7 @@ The implementing country should ensure that users have data entry and search rig
 
 ### MAL-CS: Malaria Case Notification, Investigation & Response - Program configuration
 
-The “Malaria case notification, investigation and response” program follows a confirmed malaria case from when they are diagnosed with malaria until a decision on focus response is made. A patient can be enrolled as a case on the programme on more than one occasion. The case is represented by the tracked entity type “Malaria Case”.
+The “Malaria case notification, investigation and response” program follows a confirmed malaria case from when they are diagnosed with malaria until a decision on focus response is made. The case is represented by the tracked entity type “Malaria Case”. A case can be enrolled in the programme on more than one occasion. 
 
 The program displays the front page list in order to have an at a glance list of cases in the organisation unit, and it requires a minimum of two attributes to search for cases with 50 maximum of TEIs to return in search.
 
