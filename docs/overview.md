@@ -2,7 +2,7 @@
 
 ## Design
 
-- [Version 1.0.1](#mal-cs-design)
+- [Version 1.0.0](#mal-cs-design)
 
 ## Installation
 
