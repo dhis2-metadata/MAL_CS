@@ -1,5 +1,9 @@
 # Malaria Surveillance
 
+## Release Note
+
+- [Release Note](#mal-cs-release-note)
+
 ## Design
 
 - [Version 1.0.0](#mal-cs-design)
@@ -7,10 +11,6 @@
 ## Installation
 
 - [Installation Guide](#mal-cs-installation)
-
-## Release Note
-
-- [Release Note](#mal-cs-release-note)
 
 ## Metadata Reference
 
