@@ -1,5 +1,9 @@
 # Release Note { #mal-cs-design }
 
+## 1.0.1
+
+Minor metadata compatibility changes.
+
 ## 1.0.0
 
 The Malaria Elimination Case Surveillance & Foci Investigation package supports the [Global technical strategy for malaria](https://www.who.int/publications-detail-redirect/9789240031357) of transforming surveillance into a core intervention for malaria elimination. The tracker packages supporting case notification, case investigation, foci investigation and classification workflows are designed to be used in conjunction with the aggregate DHIS2 packages for malaria programme monitoring in elimination and burden reduction settings to strengthen data quality, analysis and data-driven decision making.
