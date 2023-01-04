@@ -427,9 +427,8 @@ The information shown in the relationship widget can be changed by adding the at
    | Vector Control | MAL- Follow-up Vector Control Intervention - INDOOR Residual Spraying | yhX7ljWZV9q | YES_ONLY | | NO |
    | Vector Control | - Follow-up Vector Control Intervention - Larval Source Management | c2c62aRFIfr | YES_ONLY | | NO |
 
-## Validation rules / Program rules
-
-Check the [reference file (Excel)](resources/mal_program_rules.xlsx) for details.
+## Program rules
+Program rules have been configured to hide data elements/sections based on workflow logic during data entry, as well as to assign values to other data elements or event dates. Due to limitations in calculating indicators based on data from multiple events, some program rules have been used to move data into data elements that are part of “hidden sections" throughout the program. When modifying the package, extra care should be taken that the data elements in these hidden sections are being populated correctly. This can be tested directly in Tracker by removing the program rules which hide the sections. The rules for this are all called _“Hide Section for indicator purposes”_. 
 
 ## Analytics
 
@@ -473,12 +472,13 @@ The Foci Investigation and Response programme allows for polygons to be captured
 
 ### Indicators and Program Indicators
 
-The indicators in this package have been built based on specifications from guiding documents from the WHO. Due to limitations on calculating indicators based on data from multiple events, some programme rules have been used to move data into “hidden sections" throughout the program. When modifying the package, extra care should be taken that the data elements in these hidden sections are being populated correctly. This can be tested directly in Tracker by removing the program rules which hide the sections. The rules for this are all called _“Hide Section for indicator purposes”_. In DHIS2, we differentiate between “Program indicators”, which are based on counting events or enrollments based on a filter, and “Indicators” which are constructed with a numerator and denominator. In most cases for this program, we are using program indicators to create the indicators.
+The indicators in this package have been built based on specifications from guiding documents from the WHO. 
 
-Check the [reference file (Excel)](resources/mal_indicators.xlsx) for details.
+**Program indicators** are used most frequently in this package (e.g. counting events or enrollments filtered by a condition). Due to limitations in calculating indicators based on data from multiple events, some program rules have been used to move data into data elements that are part of “hidden sections" throughout the program. When modifying the package, extra care should be taken that the data elements in these hidden sections are being populated correctly. This can be tested directly in Tracker by removing the program rules which hide the sections. The rules for this are all called _“Hide Section for indicator purposes”_. 
 
-Note:
-Indicators that calculate a percentage of cases based on detection vs. outcome can show a result exceeding 100%, this results from cases in which the outcome happens in the following period. In particular for confirmed cases classified, the percentage can be more than 100% since the confirmation comes from diagnosis and treatment and the classification from the outcome, in a report the outcome could be in a different period.
+**Indicators** are used when there is a numerator and denominator. In this package, indicators typically contain program indicator in the numerator and denominator in order to calculate values such as % of cases investigated, % of cases notified on time, % of cases by risk group, etc. 
+
+*Note: Indicators that calculate a percentage of cases based on detection vs. outcome can show a result exceeding 100%, this results from cases in which the outcome happens in the following period. In particular for confirmed cases classified, the percentage can be more than 100% since the confirmation comes from diagnosis and treatment and the classification from the outcome, in a report the outcome could be in a different period.* 
 
 ## Android compatibility
 
