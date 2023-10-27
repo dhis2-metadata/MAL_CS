@@ -26115,14 +26115,6 @@
             ]
         },
         {
-            "attributeValues": [
-                {
-                    "attribute": {
-                        "id": "I6u65yRc0ct"
-                    },
-                    "value": "255246003"
-                }
-            ],
             "code": "T1",
             "id": "I4zfZxP6fSu",
             "name": "T1",
@@ -26154,14 +26146,6 @@
             ]
         },
         {
-            "attributeValues": [
-                {
-                    "attribute": {
-                        "id": "I6u65yRc0ct"
-                    },
-                    "value": "255247007"
-                }
-            ],
             "code": "T2",
             "id": "zYSedxtTSrw",
             "name": "T2",
@@ -26193,14 +26177,6 @@
             ]
         },
         {
-            "attributeValues": [
-                {
-                    "attribute": {
-                        "id": "I6u65yRc0ct"
-                    },
-                    "value": "255248002"
-                }
-            ],
             "code": "T3",
             "id": "Mh4zgThlTVm",
             "name": "T3",
