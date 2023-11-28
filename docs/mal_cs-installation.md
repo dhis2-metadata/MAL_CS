@@ -174,6 +174,18 @@ MAL-FOCI- Metadata Admin: Can modify the metadata
 
 The users are assigned to the appropriate user group based on their role within the system. Sharing for other objects in the package may be adjusted depending on the set up. Refer to the [DHIS2 Documentation on sharing](#sharing) for more information.
 
+### Add Relationship types
+
+Relationship types for 'MAL - Case-to-case' and 'MAL - Case-to-focus' have been removed from the .json file to ease the import process and related errors. Instead, it is recommended to configure and assign these relationshipTypes.
+
+**MAL - Case-to-case**: this relationship type is intended to be a bidirectional relationship. See the System Design Guide for detailed screenshot on how to configure this relationship type that links a malaria case with another malaria case, based on:
+* From contraint: Tracked entitity instance, using Tracked Entity Type 'Malaria Case' within the Program 'Malaria Case Notification, Investigation and Response'
+* To constraint: Tracked entity instance, using Tracked Entity Type 'Malaria Case' within the Program 'Malaria Case Notification, Investigation and Response'
+
+**MAL - Case-to-focus**: this relationship type is intended to be a bidirectional relationship. See the System Design Guide for detailed screenshot on how to configure this relationship type that links a malaria case (tracked in one tracker program) with a malaric focus (tracked in a separate tracker program). 
+* From contraint: Tracked entity instance, using Tracked Entity Type 'Malaria Case' within the Program 'Malaria Case Notification, Investigation and Response'
+* To constraint: Tracked entity instance, using Tracked Entity Type 'Focus area' within the Program 'Malaria Foci Investigation'
+
 ### User Roles
 
 Users will need user roles in order to engage with the various applications within DHIS2. The following minimum roles are recommended:
