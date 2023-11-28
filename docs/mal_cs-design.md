@@ -140,15 +140,26 @@ The Foci program uses the tracked entity type “Focus Area”, with the mandato
 
 ### Relationships
 
-The package includes two bidirectional relationship types, case to foci and case to case, using the [relationships widget](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-235/tracking-individual-level-data/tracker-capture.html#add_relationship_to_tracked_entity_instance).
+It is recommended to confgure two relationship types to link malaria cases to each other (within the same Tracker program), and to link malaria cases with their focus area (between Tracker programs) using the [relationships widget](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-235/tracking-individual-level-data/tracker-capture.html#add_relationship_to_tracked_entity_instance).
 
-Case to foci allows the user to connect a case with an existing or new foci. Likewise, it allows for a foci to connect with a case. The foci are registered into the separate “Foci Investigation” programme. See installation guide for more information.
+**MAL - Case-to-case**: this relationship type is intended to be a bidirectional relationship that links a malaria case with another malaria case within the same Tracker program. for example, two malaria cases that were identified within the same village and presumed to part of the same outbreak. 
+* From contraint: Tracked entitity instance, using Tracked Entity Type 'Malaria Case' within the Program 'Malaria Case Notification, Investigation and Response'
+* To constraint: Tracked entity instance, using Tracked Entity Type 'Malaria Case' within the Program 'Malaria Case Notification, Investigation and Response'
 
-Case to case connects two malaria cases to each other, and potentially, to other cases.
+![Configure malaria case-to-case relationship "from" constraint](resources/images/MAL_CS_relationshipType_casetocase.png)
 
-![Relationships widgetalt_text](resources/images/relationships.png)
+![Configure malaria case-to-case relationship "to" constraint](resources/images/MAL_CS_relationshipType_casetocase2.png)
+
+**MAL - Case-to-focus**: this relationship type is intended to be a bidirectional relationship, in order to a malaria case (TEI in one tracker program) with a malaric focus (TEI in a separate tracker program). Case to focus allows the user to connect a case with an existing or new foci. Likewise, it allows for a foci to be linked with a reported case. 
+* From contraint: Tracked entity instance, using Tracked Entity Type 'Malaria Case' within the Program 'Malaria Case Notification, Investigation and Response'
+* To constraint: Tracked entity instance, using Tracked Entity Type 'Focus area' within the Program 'Malaria Foci Investigation'
+
+![Configure malaria case-to-focus relationship "from" constraint](resources/images/MAL_CS_relationshipType_casetofocus.png)
+
+![Configure malaria case-to-focus relationship "from" constraint](resources/images/MAL_CS_relationshipType_casetofocus2.png)
 
 The information shown in the relationship widget can be changed by adding the attributes to the tracked entity type and marking the box “show in list”.
+![Relationships widgetalt_text](resources/images/relationships.png)
 
 ## Stages in Detail
 
