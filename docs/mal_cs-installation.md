@@ -182,9 +182,17 @@ Relationship types for 'MAL - Case-to-case' and 'MAL - Case-to-focus' have been 
 * From contraint: Tracked entitity instance, using Tracked Entity Type 'Malaria Case' within the Program 'Malaria Case Notification, Investigation and Response'
 * To constraint: Tracked entity instance, using Tracked Entity Type 'Malaria Case' within the Program 'Malaria Case Notification, Investigation and Response'
 
+![Configure malaria case-to-case relationship "from" constraint](resources/images/MAL_CS_relationshipType_casetocase.png)
+
+![Configure malaria case-to-case relationship "to" constraint](resources/images/MAL_CS_relationshipType_casetocase2.png)
+
 **MAL - Case-to-focus**: this relationship type is intended to be a bidirectional relationship. See the System Design Guide for detailed screenshot on how to configure this relationship type that links a malaria case (tracked in one tracker program) with a malaric focus (tracked in a separate tracker program). 
 * From contraint: Tracked entity instance, using Tracked Entity Type 'Malaria Case' within the Program 'Malaria Case Notification, Investigation and Response'
 * To constraint: Tracked entity instance, using Tracked Entity Type 'Focus area' within the Program 'Malaria Foci Investigation'
+
+![Configure malaria case-to-focus relationship "from" constraint](resources/images/MAL_CS_relationshipType_casetofocus.png)
+
+![Configure malaria case-to-focus relationship "from" constraint](resources/images/MAL_CS_relationshipType_casetofocus2.png)
 
 ### User Roles
 
