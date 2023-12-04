@@ -1,4 +1,4 @@
-# Release Note { #mal-cs-design }
+# Release Note { #mal-cs-release-note }
 
 ## 1.0.2
 
