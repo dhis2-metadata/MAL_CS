@@ -11707,25 +11707,6 @@
             "legends": [
                 {
                     "attributeValues": [],
-                    "color": "#E20000",
-                    "endValue": 80.0,
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "L8mvSkVwukv",
-                    "name": "0 - 80",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 0.0,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#feb24c",
                     "endValue": 95.0,
                     "externalAccess": false,
@@ -11758,6 +11739,25 @@
                         "users": {}
                     },
                     "startValue": 95.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#E20000",
+                    "endValue": 80.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "L8mvSkVwukv",
+                    "name": "0 - 80",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 0.0,
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -26115,6 +26115,7 @@
             ]
         },
         {
+            "attributeValues": [],
             "code": "T1",
             "id": "I4zfZxP6fSu",
             "name": "T1",
@@ -26146,6 +26147,7 @@
             ]
         },
         {
+            "attributeValues": [],
             "code": "T2",
             "id": "zYSedxtTSrw",
             "name": "T2",
@@ -26177,6 +26179,7 @@
             ]
         },
         {
+            "attributeValues": [],
             "code": "T3",
             "id": "Mh4zgThlTVm",
             "name": "T3",
@@ -27402,7 +27405,7 @@
         "description": "Malaria Case Surveillance and Foci Investigation",
         "healthAreaCode": "MAL",
         "healthAreaName": "Malaria",
-        "lastUpdated": "20231025T165256",
+        "lastUpdated": "20231205T085045",
         "locale": "en",
         "name": "MAL_CS_TRK_DHIS2.38.4.3-en",
         "type": "TRK",
@@ -60264,8 +60267,8 @@
                 "id": "fazCI2ygYkq"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "A42FxZlS70G",
@@ -60277,8 +60280,8 @@
         },
         {
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "aDzf0kMpBNx",
@@ -60293,8 +60296,8 @@
         },
         {
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "c2pf1CHqiaj",
@@ -60312,8 +60315,8 @@
                 "id": "SI1D9IfXiI4"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "CNhp0D10wnx",
@@ -60328,8 +60331,8 @@
                 "id": "BRNQ61bbt28"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "Cszo3PvBOsq",
@@ -60344,8 +60347,8 @@
                 "id": "JZw2d0yzmHB"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "CU4o7qWz9z3",
@@ -60360,8 +60363,8 @@
                 "id": "voV7EhjhyJ3"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "D8txpQIPmUc",
@@ -60376,8 +60379,8 @@
                 "id": "Th6dW4kwZji"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "D8z3W4KnxDx",
@@ -60392,8 +60395,8 @@
                 "id": "fazCI2ygYkq"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "djuDqDHBuDM",
@@ -60405,8 +60408,8 @@
         },
         {
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "dpkltQnIG41",
@@ -60425,8 +60428,8 @@
                 "id": "y57kkdyw35d"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "e5U1qKGFzcc",
@@ -60441,8 +60444,8 @@
                 "id": "vGxpKVMkmaW"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "ECpnbRJe1RP",
@@ -60453,29 +60456,12 @@
             "translations": []
         },
         {
-            "content": "Symptom onset date should not be greater than the date of diagnosis",
-            "dataElement": {
-                "id": "YEpmDm1I01R"
-            },
-            "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
-            ],
-            "evaluationTime": "ALWAYS",
-            "id": "etgPPUIZyUx",
-            "programRule": {
-                "id": "bgcHuAXU2zw"
-            },
-            "programRuleActionType": "SHOWERROR",
-            "translations": []
-        },
-        {
             "dataElement": {
                 "id": "JBBAwCahDQ3"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "f0SAJbjUgKR",
@@ -60487,8 +60473,8 @@
         },
         {
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "f9B6OgcsICY",
@@ -60506,8 +60492,8 @@
                 "id": "jzksn7lA2ac"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "fPjrdxe1O32",
@@ -60518,29 +60504,13 @@
             "translations": []
         },
         {
-            "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
-            ],
-            "evaluationTime": "ALWAYS",
-            "id": "G6h5TcagNBv",
-            "programRule": {
-                "id": "fXygq9QkamN"
-            },
-            "programRuleActionType": "HIDEFIELD",
-            "trackedEntityAttribute": {
-                "id": "LxWKvEYcc8J"
-            },
-            "translations": []
-        },
-        {
             "data": "#{date_of_classification_previous}",
             "dataElement": {
                 "id": "Ah29MGrnVjJ"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "gaEtbnbub26",
@@ -60556,8 +60526,8 @@
                 "id": "dbMsAGvictz"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "giT4BvmhiDy",
@@ -60573,8 +60543,8 @@
                 "id": "YEpmDm1I01R"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "GOE8e5rbMKr",
@@ -60590,8 +60560,8 @@
                 "id": "jhoCqSTA2QB"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "GrYpyC02zNT",
@@ -60606,8 +60576,8 @@
                 "id": "kwv9fXr7gbj"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "gtS3bPAXR9Q",
@@ -60618,28 +60588,13 @@
             "translations": []
         },
         {
-            "content": "#{days_with_symptoms}",
-            "data": "d2:daysBetween(#{symptom_onset_date},V{event_date})",
-            "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
-            ],
-            "evaluationTime": "ALWAYS",
-            "id": "hDGgcYXT8KB",
-            "programRule": {
-                "id": "DrYcwLbT2il"
-            },
-            "programRuleActionType": "ASSIGN",
-            "translations": []
-        },
-        {
             "data": "#{Diagnosis_date_previous}",
             "dataElement": {
                 "id": "ObiXORrILyV"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "hhGmQePUCS4",
@@ -60650,12 +60605,27 @@
             "translations": []
         },
         {
+            "content": "#{days_with_symptoms}",
+            "data": "d2:daysBetween(#{symptom_onset_date},V{event_date})",
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "HIsKFKlAEyr",
+            "programRule": {
+                "id": "DrYcwLbT2il"
+            },
+            "programRuleActionType": "ASSIGN",
+            "translations": []
+        },
+        {
             "dataElement": {
                 "id": "LCxi1dciA1C"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "hydJoj7Uw07",
@@ -60671,8 +60641,8 @@
                 "id": "vGxpKVMkmaW"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "Ign5a9rfcQW",
@@ -60688,8 +60658,8 @@
                 "id": "fPbtS7glDT2"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "iHx2T5mr7gU",
@@ -60701,8 +60671,8 @@
         },
         {
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "izAV2aV8F8O",
@@ -60720,8 +60690,8 @@
                 "id": "Oc9Y7jvdU2g"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "j8NuNXxmIWQ",
@@ -60737,8 +60707,8 @@
                 "id": "V1OnhZYfSa2"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "JyUlX2Sjaax",
@@ -60753,8 +60723,8 @@
                 "id": "Zlro25GTcNK"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "kLr1cdmjX9N",
@@ -60773,8 +60743,8 @@
                 "id": "uPNwmZl8Clb"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "l71jGMW1AOK",
@@ -60789,8 +60759,8 @@
                 "id": "J4fIuC5ZLsU"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "LYAvNLmEUop",
@@ -60805,8 +60775,8 @@
                 "id": "eYOHoeSizJk"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "m6vTDxjG4E7",
@@ -60820,8 +60790,8 @@
             "content": "Preliminary case classification",
             "data": "#{CaseClassifiedAs}",
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "marhdqVJTO1",
@@ -60833,12 +60803,45 @@
             "translations": []
         },
         {
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "mI3HmNBrh2E",
+            "programRule": {
+                "id": "fXygq9QkamN"
+            },
+            "programRuleActionType": "HIDEFIELD",
+            "trackedEntityAttribute": {
+                "id": "LxWKvEYcc8J"
+            },
+            "translations": []
+        },
+        {
+            "content": "Symptom onset date should not be greater than the date of diagnosis",
+            "dataElement": {
+                "id": "YEpmDm1I01R"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "ndWZWfq48Ch",
+            "programRule": {
+                "id": "bgcHuAXU2zw"
+            },
+            "programRuleActionType": "SHOWERROR",
+            "translations": []
+        },
+        {
             "dataElement": {
                 "id": "xTeHON9Jisk"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "nL32T2sLd9G",
@@ -60853,8 +60856,8 @@
                 "id": "JndDE3YbCEB"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "nNsURGeslZ7",
@@ -60870,8 +60873,8 @@
                 "id": "MKMyvXshCdB"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "OcocyFmdJcZ",
@@ -60885,8 +60888,8 @@
             "content": "#{date_of_classification}",
             "data": "#{date_of_classification_previous}",
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "ooGEXqR0xYa",
@@ -60897,29 +60900,12 @@
             "translations": []
         },
         {
-            "data": "d2:daysBetween(#{symptom_onset_date},V{event_date})",
-            "dataElement": {
-                "id": "kJiPLxGq2yI"
-            },
-            "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
-            ],
-            "evaluationTime": "ALWAYS",
-            "id": "oZMkmGDvTuy",
-            "programRule": {
-                "id": "DrYcwLbT2il"
-            },
-            "programRuleActionType": "ASSIGN",
-            "translations": []
-        },
-        {
             "dataElement": {
                 "id": "B1zbtdPXMRk"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "P5gGkUftg1a",
@@ -60934,8 +60920,8 @@
                 "id": "qpp5fp1RVaX"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "P7iOpdCfgTH",
@@ -60950,8 +60936,8 @@
                 "id": "f9xYwUwrHq9"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "PhLVvVpI9PY",
@@ -60966,8 +60952,8 @@
                 "id": "veWOag0p9n2"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "pp5WMAYY0uH",
@@ -60982,8 +60968,8 @@
                 "id": "gd8U1R3ALDA"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "PQarjqfA9rQ",
@@ -60998,8 +60984,8 @@
                 "id": "zFiMMpGyBgr"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "pSZf4qeyzcu",
@@ -61013,8 +60999,8 @@
             "content": "Foci classification",
             "data": "#{FociClassification}",
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "qm8owhoPzQZ",
@@ -61050,8 +61036,8 @@
             "content": "#{minus_days_with_symptoms}",
             "data": "#{days_with_symptoms} * -1",
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "QNeo7elbVid",
@@ -61067,8 +61053,8 @@
                 "id": "ObiXORrILyV"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "RvsUTOQa65t",
@@ -61084,8 +61070,8 @@
                 "id": "vGxpKVMkmaW"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "SAJWGPbTFEt",
@@ -61097,8 +61083,8 @@
         },
         {
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "SgSxGbuVNvA",
@@ -61113,8 +61099,8 @@
         },
         {
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "SIAVhcJL8Jh",
@@ -61132,8 +61118,8 @@
                 "id": "UFTvUJIMiH0"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "sURe45WdZP2",
@@ -61148,8 +61134,8 @@
                 "id": "f623C5LloqV"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "TMz6BBTVliZ",
@@ -61164,8 +61150,8 @@
                 "id": "mw2Rso4RHEF"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "uIoXqmhhjYi",
@@ -61181,8 +61167,8 @@
                 "id": "qxWAgIAfZAh"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "uJ39dKuMI2D",
@@ -61197,8 +61183,8 @@
                 "id": "ehBd9cR5bq4"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "vzBu0p0ehSo",
@@ -61210,8 +61196,8 @@
         },
         {
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "WdVxv4pUm1G",
@@ -61229,8 +61215,8 @@
                 "id": "FxYWTORW4mT"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "WpYyV1Y1C9i",
@@ -61243,8 +61229,8 @@
         {
             "data": "d2:yearsBetween(A{dateofbirth}, V{current_date})",
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "xigvcIQrAY5",
@@ -61262,8 +61248,8 @@
                 "id": "vGxpKVMkmaW"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "Y38ekb1xxFD",
@@ -61280,8 +61266,8 @@
             "content": "Malaria species type",
             "data": "#{MalariaSpecies}",
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "YiSKHqXoQ7p",
@@ -61298,8 +61284,8 @@
                 "id": "e6hRE1N1Fcc"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "YoMdvAGhHtC",
@@ -61315,8 +61301,8 @@
                 "id": "ObiXORrILyV"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "YwFXP6H8tMF",
@@ -61331,8 +61317,8 @@
                 "id": "vGxpKVMkmaW"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "Z39jOn64bf8",
@@ -61349,8 +61335,8 @@
             "content": "Malaria test performed",
             "data": "#{TestedBy}",
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "z6YsXSrfhXc",
@@ -61366,8 +61352,8 @@
                 "id": "Urz28endlF6"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "ZCXu9NmOfbZ",
@@ -61382,8 +61368,8 @@
                 "id": "Wwu7UAt7bZW"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "ZKdE7lCwdAG",
@@ -61399,8 +61385,8 @@
                 "id": "KA6RY4BB41F"
             },
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "evaluationTime": "ALWAYS",
             "id": "ZRWFj3lbeH1",
@@ -61408,6 +61394,23 @@
                 "id": "lcpfnocmJ8z"
             },
             "programRuleActionType": "SHOWERROR",
+            "translations": []
+        },
+        {
+            "data": "d2:daysBetween(#{symptom_onset_date},V{event_date})",
+            "dataElement": {
+                "id": "kJiPLxGq2yI"
+            },
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "evaluationTime": "ALWAYS",
+            "id": "ZUCIdgghTWL",
+            "programRule": {
+                "id": "DrYcwLbT2il"
+            },
+            "programRuleActionType": "ASSIGN",
             "translations": []
         }
     ],
@@ -62180,10 +62183,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "ooGEXqR0xYa"
+                    "id": "gaEtbnbub26"
                 },
                 {
-                    "id": "gaEtbnbub26"
+                    "id": "ooGEXqR0xYa"
                 }
             ],
             "programStage": {
@@ -62720,13 +62723,13 @@
             },
             "programRuleActions": [
                 {
-                    "id": "nNsURGeslZ7"
-                },
-                {
                     "id": "ZCXu9NmOfbZ"
                 },
                 {
                     "id": "nL32T2sLd9G"
+                },
+                {
+                    "id": "nNsURGeslZ7"
                 }
             ],
             "translations": []
@@ -62881,7 +62884,7 @@
         },
         {
             "condition": "(A{Sex} == 'FEMALE' && (d2:yearsBetween(A{dateofbirth}, V{current_date}) >= 13) && A{pregnant}=='NO')  || !d2:hasValue('pregnant')",
-            "description": "Hide pregnancy trimeser when the person is female , <= 13, or not pregnant",
+            "description": "Hide pregnancy trimester when the person is female , <= 13, or not pregnant",
             "id": "fXygq9QkamN",
             "name": "Sex : female, Age <= 13, Pregnant: No",
             "priority": 3,
@@ -62890,7 +62893,7 @@
             },
             "programRuleActions": [
                 {
-                    "id": "G6h5TcagNBv"
+                    "id": "mI3HmNBrh2E"
                 }
             ],
             "translations": [
@@ -62918,7 +62921,7 @@
             "translations": []
         },
         {
-            "condition": "#{symptom_onset_date} > V{event_date}",
+            "condition": "d2:daysBetween(#{symptom_onset_date}, V{event_date}) > 0",
             "id": "bgcHuAXU2zw",
             "name": "Symptom onset date should be less or equal to date of diagnosis",
             "priority": 10,
@@ -62927,7 +62930,7 @@
             },
             "programRuleActions": [
                 {
-                    "id": "etgPPUIZyUx"
+                    "id": "ndWZWfq48Ch"
                 }
             ],
             "programStage": {
@@ -62936,7 +62939,7 @@
             "translations": []
         },
         {
-            "condition": "d2:hasValue('symptom_onset_date') && !d2:hasValue('days_with_symptoms') && (#{symptom_onset_date} <= V{event_date}) && #{symptom_onset_date} != ''",
+            "condition": "d2:hasValue('symptom_onset_date') && !d2:hasValue('days_with_symptoms') && #{symptom_onset_date} != '' && d2:daysBetween(#{symptom_onset_date}, V{event_date}) >= 0",
             "description": "Calculates the number of days with symptoms based on the date of the event and symptoms onset date",
             "id": "DrYcwLbT2il",
             "name": "Symptoms set days with symptoms from onset date",
@@ -62946,10 +62949,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "hDGgcYXT8KB"
+                    "id": "ZUCIdgghTWL"
                 },
                 {
-                    "id": "oZMkmGDvTuy"
+                    "id": "HIsKFKlAEyr"
                 }
             ],
             "programStage": {
@@ -71310,7 +71313,7 @@
             "code": "MAL_CS_IND_ACCESS",
             "id": "ZXEVDM9XRea",
             "managedGroups": [],
-            "name": "MAL-CS- Access",
+            "name": "MAL CS - Access",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
@@ -71351,7 +71354,7 @@
             "code": "MAL_CS_IND_ADMIN",
             "id": "suMb19wGXPR",
             "managedGroups": [],
-            "name": "MAL-CS- Admin",
+            "name": "MAL CS - Admin",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
@@ -71392,7 +71395,7 @@
             "code": "MAL_CS_IND_DATA_CAPTURE",
             "id": "fRSrUJ6SMGH",
             "managedGroups": [],
-            "name": "MAL-CS- Data capture",
+            "name": "MAL CS - Data capture",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
@@ -71433,7 +71436,7 @@
             "code": "MAL_CS_FOCI_ACCESS",
             "id": "JqhjQaxKsmi",
             "managedGroups": [],
-            "name": "MAL-FOCI- Access",
+            "name": "MAL FOCI - Access",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
@@ -71474,7 +71477,7 @@
             "code": "MAL_CS_FOCI_ADMIN",
             "id": "KVGrypjbsSx",
             "managedGroups": [],
-            "name": "MAL-FOCI- Admin",
+            "name": "MAL FOCI - Admin",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
@@ -71515,7 +71518,7 @@
             "code": "MAL_CS_FOCI_DATA_CAPTURE",
             "id": "SuedBjrcOkt",
             "managedGroups": [],
-            "name": "MAL-FOCI- Data Capture",
+            "name": "MAL FOCI - Data Capture",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
